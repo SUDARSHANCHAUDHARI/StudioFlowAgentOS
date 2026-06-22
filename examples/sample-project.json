@@ -1,0 +1,23 @@
+{
+  "name": "ScreenDiff AI",
+  "goal": "Detect visual regression issues from screenshots",
+  "docs": [
+    "product idea",
+    "test cases",
+    "design notes"
+  ],
+  "agents": [
+    "QA Agent",
+    "Dev Agent"
+  ],
+  "tasks": [
+    "Build screenshot upload",
+    "Compare images",
+    "Generate report"
+  ],
+  "memory": [
+    "Decision: Use Playwright for browser screenshots.",
+    "Decision: Use pixelmatch for MVP visual comparison.",
+    "Known issue: Dynamic content may create false positives."
+  ]
+}
